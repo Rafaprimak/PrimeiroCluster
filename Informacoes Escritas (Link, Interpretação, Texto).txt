@@ -1,0 +1,26 @@
+Link para base de dados: https://www.kaggle.com/datasets/berkayalan/paris-2024-olympics-medals/data. Acesso em 05/09/2024
+
+*Código em Python estará nas pastas de cada Algoritmo de Clusterização
+
+-Foi utilizado os algoritmos GMM, Kmeans e DBSCAN, sendo observado que o GMM alcançou um resultado mais satisfatório em comparação com os demais.
+
+-Para os valores das métricas, utilizei de duas estratégias, uma que contem Proporções diferentes de medalhas/medalha de ouro/país, e outra que vê apenas medalhas/medalha de ouro, interpretando país como algo de "fora", sendo visto apenas pelos algoritmos (não sei como explicar com os termos certos kkkkkk) mas foi observado que as novas proporções deram um resultado melhor, principalmente o GMM no Silhouette (caminho para o arquivo: Trabalho Clusters/Novas Proporcoes (Resultados Melhores)/GMM - 0.68 e 0.47
+
+-As tabelas estarão distribuídas em cada pasta de cada algoritmo
+
+-A interpretação do resultado do melhor algoritmo foi o seguinte, baseando-se em todos os dados que foram validados pelo código
+
+Cluster 0:
+Média de medalhas de ouro: 10
+Média de total de medalhas: 30
+Interpretação: Este cluster pode representar países com desempenho médio nas Olimpíadas.
+
+Cluster 1:
+Média de medalhas de ouro: 5
+Média de total de medalhas: 15
+Interpretação: Este cluster pode representar países com desempenho baixo nas Olimpíadas.
+
+Cluster 2:
+Média de medalhas de ouro: 20
+Média de total de medalhas: 50
+Interpretação: Este cluster pode representar países com desempenho alto nas Olimpíadas.
